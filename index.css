@@ -1,0 +1,61 @@
+body {
+    background: rgb(17, 130, 186);
+    justify-content: center;
+    text-align: center;
+    font: 'Varela Round', sans-serif 15pt Arial;
+  }
+  
+  header {
+    margin-top: 30px;
+    color: white;
+    font: normal 26pt 'Prompt';
+  }
+  
+  section {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 13px rgb(0, 0, 0);
+  }
+  
+  img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  text#description{
+    font: normal 20px 'Prompt';
+
+  }
+
+  div#two{
+    padding-bottom: 50px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  div#gitlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  img#githubimage{
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+
+  }
+  a#gitlinktext{
+    font: normal 13pt Arial;
+  }
+
+  footer{
+    color: white;
+    font: normal 10pt Arial;
+  }
